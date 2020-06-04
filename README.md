@@ -93,6 +93,7 @@ Nous allons nous servir de l’outil ``aircrack-ng`` pour retrouver la clé de c
 
 * Copier [la capture chiffrée avec WEP](files/coursWLAN-WEP.cap)
 * Ouvrir le fichier avec Wireshark et essayer de lire son contenu. Utiliser des filtres d’affichage de protocoles connus (http, icmp). Est-ce que vous arrivez à trouver des trames contenant ces protocoles ? (normalement pas puisque le contenu est chiffré !)
+
 * Utiliser ``aircrack-ng`` pour récupérer la clé de chiffrement du réseau WEP. Si vous utilisez une distribution Kali, aircrack est déjà installé. Sinon, renseignez-vous sur Internet pour l'installer sur votre système.
 
 ```
@@ -121,15 +122,21 @@ Maintenant que vous avez la clé WEP, configurez la dans Wireshark afin de déch
 > 
 > **_Réponse :_** 
 
+ Ona trouvé la clé WEP presque instantannément
 ---
 > **_Montrer une capture d'écran de l'obtention de la clé WEP_**
 > 
-> **_Capture ici_** 
+![Clà WEP trouvé](images/key.png)
 
 ---
 > **_Question :_** Arrivez-vous à récupérer les informations d’identification (credentials) de l’authentification basique http contenue dans la capture ?
 > 
 > **_Réponse :_** 
+
+```
+on appliquant un recherche sur les paquets http et aprés lâpplication de lêncodage par Wireshark on peut constater que les informations d’identification (credentials) de l’authentification basique http sont : admin ; admin .
+```
+![informations d’identification trouvées en clair par Wireshark](images/password.png)
 
 ---
 
