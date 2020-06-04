@@ -47,11 +47,9 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
     ```
     Le filtre utilisé est :
      wlan.fc.type_subtype eq 4 and (wlan_mgt.ssid matches "Starbucks" or wlan_mgt.ssid matches "Black Rain")
-
     ```
-    ![Analayse des trames par Wireshark](images/mac.PNG)
-
 ---
+![Analayse des trames par Wireshark](images/mac.PNG)
 > **_Question :_** Quel est l’adresse MAC de la cible ?
 > 
 > **_Réponse :_** 
@@ -76,10 +74,10 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
      On appliquant un fitre qui affiche tous les trames de recherche active effectué par la cible on peut trouver une liste des endroits visités 
      ```
      
-     ![Liste de endroits visités ](images/places.png)
+     
      
 ---
-
+![Liste de endroits visités ](images/places.png)
 # Réseaux protégés par WEP
 
 ## Introduction
