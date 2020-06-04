@@ -43,6 +43,7 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
 > **_Question :_** Quel filtre avez-vous utilisé
 > 
 > **_Réponse :_** 
+
     ```
     Le filtre utilisé est :
      wlan.fc.type_subtype eq 4 and (wlan_mgt.ssid matches "Starbucks" or wlan_mgt.ssid matches "Black Rain")
@@ -61,7 +62,8 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
 ---
 > **_Question :_** Quel est le nom du constructeur de l’interface sans fils de la cible ?
 > 
-> **_Réponse :_** 
+> **_Réponse :_**
+
      ```
      Le constructeur est Samsung
      ```
@@ -72,9 +74,10 @@ Nous savons que la cible s’est hébergée à l’hôtel « Black Rain » et qu
 
      ```
      On appliquant un fitre qui affiche tous les trames de recherche active effectué par la cible on peut trouver une liste des endroits visités 
-
      ```
+     
      ![Liste de endroits visités ](images/places.png)
+     
 ---
 
 # Réseaux protégés par WEP
