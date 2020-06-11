@@ -187,14 +187,12 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 
 > **_Question :_** Combien de temps avez-vous attendu pour obtenir la passphrase WPA ?
 > 
-> **_Réponse :_** 
-
-le temps de l'obtention de la passphrase est environ une minute 
+> **_Réponse :_**  le temps de l'obtention de la passphrase est environ une minute 
 ---
 > **_Montrer une capture d'écran de l'obtention de la passphrase WPA_**
 > 
-> **_Capture ici_** 
-![capture des Nonces ](images/wpang.png)
+> ![capture des Nonces ](images/wpang.png)
+
 ---
 > **_Question :_** Lors de la capture, la cible a fait un « ping » sur un serveur. Arrivez-vous à dire de quel serveur il s’agit ?
 
