@@ -164,7 +164,9 @@ Nous utiliserons Wireshark pour trouver l’authentification WPA contenue dans l
 
 > **_Fournir une capture d'écran des chiffres aléatoires_**
 > 
-> **_Capture ici_** 
+![capture des Nonces (images/wapanonce.PNG)
+
+![capture des Nonces (images/nonce.png)
 
 ---
 
