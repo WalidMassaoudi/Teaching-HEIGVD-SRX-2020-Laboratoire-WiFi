@@ -220,7 +220,7 @@ Nous avons enlevé une seule trame (choisie stratégiquement) du fichier de capt
 > **_Question :_** Est-ce que vous arrivez à refaire l'exercice ? Pourquoi ou pourquoi pas ?
 > 
 > **_Réponse :_** 
-On n'arrive pas à refaire l'exercice car aircrack-ng ne trouve pas des trames inportant dans la captures afin de trouver la clé .
+On n'arrive pas à refaire l'exercice car aircrack-ng ne trouve pas des trames inportantes dans la captures afin de trouver la clé .
 
 ---
 > **_Question :_** Sur la base de votre réponse précédente, arrivez-vous à déduire quelle trame a été effacée ?
