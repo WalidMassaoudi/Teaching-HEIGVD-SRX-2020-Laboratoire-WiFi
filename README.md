@@ -200,8 +200,14 @@ aircrack-ng <nom-du-fichier-capture> -w <nom-du-dictionnaire>
 > **_Réponse :_** 
 > 
 > Adresse IP du serveur : ?
->
+   IP :31.13.64.35 
+   
+  ![capture des Nonces ](images/pingadd.png)
 > Nom de Domaine : ?
+  Domaine :Facebook.com
+ 
+  ![capture des Nonces ](images/whois.png)
+
 
 
 
